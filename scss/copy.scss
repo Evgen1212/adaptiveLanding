@@ -1,0 +1,57 @@
+.block3 {
+
+    &__row {
+        display: flex;
+        height: 600px;
+    }
+
+    &__img1-wrapper {
+        flex: 1 1 33.333%;
+        .bike1 {
+            background: url(/img/Logo4.png) 50% 50% no-repeat, url(/img/6.png) 50%/cover no-repeat;
+        width: 100%;
+        height: 100%;
+        }
+    }
+
+    &__img2-wrapper {
+        flex: 1 1 33.333%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__content {
+        flex: 0 0 66.666%;
+        padding: 70px 40px 0;
+        position: relative;
+        & ::after{
+            content: '';
+            position: absolute;
+            left: 50%;
+            bottom: -20px;
+            border: 10px solid transparent;
+            border-top: 10px solid #fff;
+        }
+    }
+
+    &__img3-wrapper {
+        flex: 1 1 33.333%;
+        .bike2 {
+            background: url(/img/7.png) 50%/cover no-repeat;
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+
+    &__img4-wrapper {
+        flex: 1 1 33.333%;
+        .bike3 {
+            background: url(/img/8.png) 50%/cover no-repeat;
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+
+
